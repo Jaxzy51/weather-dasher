@@ -1,34 +1,34 @@
-# Weathex: Weather Dashboard Application
+# Weathex: Weather Dashboard
 
 ## User Story
 
 As a traveler,  
-I want to view the weather outlook for multiple cities,  
-So that I can plan my trips accordingly.
+I want to see the weather forecast for multiple cities  
+So that I can plan my trips effectively.
 
 ## Acceptance Criteria
 
-- **Given** a weather dashboard with form inputs:  
+- **Given** a weather dashboard with input fields:  
   - **When** I search for a city,  
-    - **Then** I am presented with the current and future weather conditions for that city, and the city is added to the search history.
+    - **Then** I see the current and 5-day forecast for that city, and it gets saved to the search history.
 
-- **When** I view the current weather conditions for a city:  
-  - **Then** I am presented with:
-    - The city name
-    - The date
-    - An icon representing the weather conditions
-    - A description of the weather for the icon's `alt` tag
-    - The temperature
-    - The humidity
-    - The wind speed
+- **When** I view a city’s current weather,  
+  - **Then** I see:
+    - The city name  
+    - Today’s date  
+    - A weather icon  
+    - A description of the icon via `alt` text  
+    - The current temperature  
+    - Humidity levels  
+    - Wind speed  
 
-- **When** I view the future weather conditions for a city:  
-  - **Then** I am presented with a 5-day forecast that includes:
-    - The date
-    - An icon representing the weather conditions
-    - The temperature
-    - The wind speed
-    - The humidity
+- **When** I view the city’s 5-day forecast,  
+  - **Then** I see for each day:
+    - The date  
+    - A weather icon  
+    - The forecasted temperature  
+    - Wind speed  
+    - Humidity  
 
-- **When** I click on a city in the search history:  
-  - **Then** I am presented again with the current and future weather conditions for that city.
+- **When** I click on a city in the search history,  
+  - **Then** the current weather and forecast for that city are displayed again.
